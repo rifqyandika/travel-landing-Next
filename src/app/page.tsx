@@ -1,6 +1,4 @@
-import CardBooking from "../components/CardBooking";
 import VideoComponent from "../components/VideoComponent";
-import Link from "next/link";
 
 export default function HomePage() {
   return (
