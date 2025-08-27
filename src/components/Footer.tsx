@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 // app/components/Footer.jsx
 export default function Footer() {
   return (
@@ -16,20 +18,20 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-gray-200">
-              <li><a href="/" className="hover:text-white transition">Home</a></li>
-              <li><a href="/about" className="hover:text-white transition">About</a></li>
-              <li><a href="/services" className="hover:text-white transition">Services</a></li>
-              <li><a href="/contact" className="hover:text-white transition">Contact</a></li>
+              <li><Link href="/" className="hover:text-white transition">Home</Link></li>
+              <li><Link href="/about" className="hover:text-white transition">About</Link></li>
+              <li><Link href="/services" className="hover:text-white transition">Services</Link></li>
+              <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Support</h3>
             <ul className="space-y-2 text-gray-200">
-              <li><a href="#" className="hover:text-white transition">FAQ</a></li>
-              <li><a href="#" className="hover:text-white transition">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition">Terms</a></li>
-              <li><a href="#" className="hover:text-white transition">Privacy</a></li>
+              <li><Link href="#" className="hover:text-white transition">FAQ</Link></li>
+              <li><Link href="#" className="hover:text-white transition">Help Center</Link></li>
+              <li><Link href="#" className="hover:text-white transition">Terms</Link></li>
+              <li><Link href="#" className="hover:text-white transition">Privacy</Link></li>
             </ul>
           </div>
         </div>

@@ -2,12 +2,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Car } from "lucide-react";
-import { usePathname } from 'next/navigation'
+//import { usePathname } from 'next/navigation'
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-    const pathname = usePathname()
-    const isHome = pathname === "/"
+    // const pathname = usePathname()
+    // const isHome = pathname === "/"
 
     return (
         <nav className="bg-slate-900 fixed w-full z-50">

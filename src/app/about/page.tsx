@@ -53,7 +53,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Who We Are</h2>
             <p className="text-gray-600 leading-relaxed">
               At <span className="text-blue-600 font-semibold">SioTravel</span>, we believe 
-              that travel is more than just moving from one place to another — it's about 
+              that travel is more than just moving from one place to another — it&apos;s about 
               creating unforgettable experiences. Since our founding, we have been committed 
               to offering affordable, high-quality travel services for adventurers, families, 
               and business travelers alike.

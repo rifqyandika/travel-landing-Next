@@ -27,7 +27,7 @@ export default function ContactPage() {
             />
             <textarea
               placeholder="Message"
-              rows="5"
+              rows={5}
               className="border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none transition"
             ></textarea>
             <button
